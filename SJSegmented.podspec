@@ -9,27 +9,21 @@
 Pod::Spec.new do |s|
   s.name             = 'SJSegmented'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SJSegmented.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = 'Simple segmented control with basic customization'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  Simple segmented control with basic customization for font, colors and easy to use.
                        DESC
 
   s.homepage         = 'https://github.com/dimacheverda/SJSegmented'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Dmytro Cheverda' => 'cheverda@sjinnovation.com' }
   s.source           = { :git => 'https://github.com/dimacheverda/SJSegmented.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/cheverda'
 
   s.ios.deployment_target = '9.0'
-
+  s.swift_version = '4.0'
+  
   s.source_files = 'SJSegmented/Classes/**/*'
   s.frameworks = 'UIKit'
 
