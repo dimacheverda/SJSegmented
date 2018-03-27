@@ -1,0 +1,22 @@
+PODS:
+  - Nimble (7.0.3)
+  - Quick (1.2.0)
+  - SJSegmented (0.1.0)
+
+DEPENDENCIES:
+  - Nimble (~> 7.0.2)
+  - Quick (~> 1.2.0)
+  - SJSegmented (from `../`)
+
+EXTERNAL SOURCES:
+  SJSegmented:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
+  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+  SJSegmented: e483c2e764c61dbce3c85e600a629757205292ba
+
+PODFILE CHECKSUM: 9676150b3be2cbc4e8a450350404223297711bed
+
+COCOAPODS: 1.4.0

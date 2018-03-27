@@ -7,18 +7,19 @@
 //
 
 import UIKit
+import SJSegmented
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var segmentedControl: SegmentedControl!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        segmentedControl.items = ["First", "Second", "Third"]
+        segmentedControl.textDefaultColor = UIColor.orange
+        segmentedControl.textSelectedColor = UIColor.red
+        segmentedControl.underlineColor = UIColor.red
+        segmentedControl.backgroundColor = UIColor.lightGray.withAlphaComponent(0.1)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 }
-
