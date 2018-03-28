@@ -1,11 +1,12 @@
 # SJSegmented
 
-[![CI Status](http://img.shields.io/travis/dimacheverda/SJSegmented.svg?style=flat)](https://travis-ci.org/dimacheverda/SJSegmented)
 [![Version](https://img.shields.io/cocoapods/v/SJSegmented.svg?style=flat)](http://cocoapods.org/pods/SJSegmented)
 [![License](https://img.shields.io/cocoapods/l/SJSegmented.svg?style=flat)](http://cocoapods.org/pods/SJSegmented)
 [![Platform](https://img.shields.io/cocoapods/p/SJSegmented.svg?style=flat)](http://cocoapods.org/pods/SJSegmented)
 
 ## Example
+
+![](Resources/demo.gif)
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
@@ -22,7 +23,7 @@ pod 'SJSegmented'
 
 ## Author
 
-dimacheverda, cheverda@sjinnovation.com
+Dmytro Cheverda, cheverda@sjinnovation.com
 
 ## License
 
